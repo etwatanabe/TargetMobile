@@ -1,0 +1,1 @@
+Ao final do processamento, a valor da variável SOMA será 77.

@@ -1,0 +1,32 @@
+Primeiro, calcula-se o tempo que cada veículo levaria para percorrer a distância de 125 km sem considerar os pedágios.
+    Carro: Velocidade = 90 km/h
+        Tempo = Distância / Velocidade = 125 km / 90 km/h = 1.39 horas
+    Caminhão: Velocidade = 80 km/h
+        Tempo = Distância / Velocidade = 125 km / 80 km/h = 1.56 horas
+
+O carro leva 5 minutos a mais em cada pedágio. Como há 3 pedágios, o carro leva um total de 15 minutos (0.25 horas) a mais.
+    Carro com Pedágios:
+        Tempo total = 1.39 horas + 0.25 horas = 1.64 horas
+    O caminhão também passa pelos pedágios, mas não tem atraso adicional.
+
+Para encontrar o ponto de encontro, usamos a fórmula da distância percorrida:
+    Distância percorrida pelo carro: d_c = v_c * t 
+    Distância percorrida pelo caminhão: d_t = v_t * t
+    Onde:
+        ( v_c ) = 90 km/h (velocidade do carro)
+        ( v_t ) = 80 km/h (velocidade do caminhão)
+        ( t ) = tempo até o encontro
+
+A soma das distâncias percorridas pelos dois veículos será igual à distância total entre as cidades (125 km):
+    90t + 80t = 125
+    170t = 125
+    t = 125/070
+    t = 0.735 horas
+
+Agora, calcula-se a distância que cada veículo percorreu até o ponto de encontro:
+    Carro:
+        Distância = ( 90 \times 0.735 ) = 66.15 km
+    Caminhão:
+        Distância = ( 80 \times 0.735 ) = 58.8 km
+
+Portanto, quando os veículos se cruzarem, o carro terá percorrido aproximadamente 66.15 km e o caminhão aproximadamente 58.8 km. Portanto, o caminhão estará mais próximo da cidade de Ribeirão Preto no momento do encontro.
